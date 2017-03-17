@@ -1,14 +1,18 @@
 #left {
-  background-color: yellow;
+  background-color: white;
 }
 #right {
-  background-color: green;
-}
-p {
-  text-align: right;
-  font-size: 500px;
+  background-color: #F9AB19;
 }
 
-body {
-  background-color: blue:
+img {
+  width: 100%;
+}
+
+#left h1, #left h2 {
+  padding: 0 1em 0 1em;
+}
+
+#right p {
+  margin-right: 40%
 }
