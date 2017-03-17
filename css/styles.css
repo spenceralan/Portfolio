@@ -25,6 +25,7 @@ h5 {
 
 img {
   width: 100%;
+  border-radius: 5px;
 }
 
 /*right panel*/
@@ -44,3 +45,9 @@ img {
 
 
 /*pad left and right font 1em and remove right margin*/
+
+@media (max-width: 991px) {
+  h1, h2, h3, p, li {
+    padding: 0 20px 0 20px;
+  }
+}
