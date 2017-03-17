@@ -47,8 +47,7 @@ img {
   border: solid 10px #F96C00;
 }
 
-
-/*pad left and right font 1em and remove right margin*/
+/*media queries*/
 
 @media (max-width: 991px) {
   h1, h2, h3, p {
