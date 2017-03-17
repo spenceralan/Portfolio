@@ -1,30 +1,39 @@
+/*whole page*/
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
   font-variant: small-caps;
+  font-size: 400%;
 }
 
 h1, h2, h3 {
   font-family: 'Space Mono', monospace;
 }
 
+h5 {
+  font-weight: bold;
+  font-size: 125%;
+}
+
+/*left panel*/
+
 #left {
   background-color: white;
-}
-#right {
-  background-color: #F9AB19;
-  height: 100%;
 }
 
 img {
   width: 100%;
 }
 
-/*#left h1, #left h2, #left h3 {
-  padding: 0 20px 0 20px;
-}*/
+/*right panel*/
+
+#right {
+  background-color: #F9AB19;
+  height: 100%;
+}
 
 #right p {
   margin-right: 40%;
@@ -36,6 +45,10 @@ img {
 
 .panel-body {
   background-color: #fdf6b4;
+}
+
+.screenshot {
+  border: solid 10px #F96C00;
 }
 
 
