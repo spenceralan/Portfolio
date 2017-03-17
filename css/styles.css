@@ -1,5 +1,5 @@
-html {
-  background-color: #F9AB19;  
+h1 {
+  font-variant: small-caps;
 }
 
 #left {
@@ -8,16 +8,15 @@ html {
 #right {
   background-color: #F9AB19;
   height: 100%;
-  padding-block-end: 
 }
 
 img {
   width: 100%;
 }
 
-#left h1, #left h2, #left h3 {
+/*#left h1, #left h2, #left h3 {
   padding: 0 20px 0 20px;
-}
+}*/
 
 #right p {
   margin-right: 40%;
@@ -25,6 +24,10 @@ img {
 
 #right li {
   margin-right: 25%;
+}
+
+.panel-body {
+  background-color: #fdf6b4;
 }
 
 @media 
