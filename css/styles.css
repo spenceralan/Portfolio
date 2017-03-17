@@ -1,17 +1,22 @@
+html {
+  background-color: #F9AB19;  
+}
+
 #left {
   background-color: white;
 }
 #right {
   background-color: #F9AB19;
   height: 100%;
+  padding-block-end: 
 }
 
 img {
   width: 100%;
 }
 
-#left h1, #left h2 {
-  padding: 0 1em 0 1em;
+#left h1, #left h2, #left h3 {
+  padding: 0 20px 0 20px;
 }
 
 #right p {
