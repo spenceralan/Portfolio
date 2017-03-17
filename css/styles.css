@@ -51,7 +51,14 @@ img {
 /*pad left and right font 1em and remove right margin*/
 
 @media (max-width: 991px) {
-  h1, h2, h3, p, li {
+  h1, h2, h3, p {
     padding: 0 20px 0 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #text {
+    margin-right: 35%;
+    float: right;
   }
 }
